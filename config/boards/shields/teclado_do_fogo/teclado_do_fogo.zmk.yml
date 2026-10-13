@@ -1,0 +1,12 @@
+file_format: "1"
+id: teclado_do_fogo
+name: Teclado do Fogo
+type: shield
+url: https://github.com/mphennrichs/teclado-do-fogo
+requires: [pro_micro]
+features:
+  - keys
+  - studio
+siblings:
+  - teclado_do_fogo_left
+  - teclado_do_fogo_right

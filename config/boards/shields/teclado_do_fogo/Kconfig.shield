@@ -1,0 +1,5 @@
+config SHIELD_TECLADO_DO_FOGO_LEFT
+    def_bool $(shields_list_contains,teclado_do_fogo_left)
+
+config SHIELD_TECLADO_DO_FOGO_RIGHT
+    def_bool $(shields_list_contains,teclado_do_fogo_right)

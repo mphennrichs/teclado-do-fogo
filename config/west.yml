@@ -1,0 +1,12 @@
+manifest:
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+  projects:
+    - name: zmk
+      remote: zmkfirmware
+      # Versão fixa: o main migrou para Zephyr 4 (HWMv2) e renomeou as boards.
+      revision: v0.3
+      import: app/west.yml
+  self:
+    path: config
